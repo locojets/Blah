@@ -1,0 +1,35 @@
+html{
+    font-family: arial, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.boxes1 {
+    border: 2px solid greenyellow;
+}
+
+.boxes2 {
+    border: 2px solid goldenrod;
+
+    display: grid;
+    /* grid-template-columns: 300px;
+    grid-template-rows: 200px; */
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.first  {
+
+color: rgb(141, 141, 150);
+background-color: blueviolet;
+}
+.box2 {
+    font-size: 1em;
+}
+.second{
+    color:whitesmoke;
+    font-size: 1.2rem;
+    background-color: lightsalmon; 
+    border-bottom: 9px dotted darkolivegreen;
+}
